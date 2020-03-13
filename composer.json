@@ -1,22 +1,21 @@
 {
-    "name": "Yuca/SingletonContainer",
+    "name": "yuca/singleton-container",
     "type": "library",
     "description": "PSR-11 container decorator caching resolved instances.",
     "keywords": [
-        "Yuca",
         "dependency injection",
         "DI",
         "PSR-11",
         "decorator",
         "singleton"
     ],
-    "homepage": "https://github.com/Yuca/SingletonContainer",
+    "homepage": "https://github.com/yuca/singleton-container",
     "license": "MIT",
     "authors": [
         {
             "name": "Hrvoje Jukic",
             "email": "hrcajuka@gmail.com",
-            "homepage": "https://github.com/Yuca",
+            "homepage": "https://github.com/yuca",
             "role": "Developer"
         }
     ],

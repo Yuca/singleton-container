@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/Yuca/SingletonContainer).
+We accept contributions via Pull Requests on [Github](https://github.com/yuca/singleton-container).
 
 
 ## Pull Requests

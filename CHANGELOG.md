@@ -12,5 +12,5 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 - `SingletonContainer` with `__construct()`, `clear()`, `clearAll()`, `get()`, `has()` and `isCached()` methods.
 - `SingletonContainerTest` with unit tests for `SingletonContainer`.
 
-[Unreleased]: https://github.com/yuca/singleton-container/compare/v1.0.0...HEAD
-[0.0.1]: https://github.com/yuca/singleton-container/releases/tag/v1.0.0
+[Unreleased]: https://github.com/yuca/singleton-container/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/yuca/singleton-container/releases/tag/1.0.0

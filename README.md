@@ -30,14 +30,19 @@ $ composer require yuca/singleton-container
 /** @var Psr\Container\ContainerInterface */
 $resolvingContainer;
 $singletonContainer = new Yuca\SingletonContainer\SingletonContainer($resolvingContainer);
+
 // Resolves the instance using the injected container
 $instance = $singletonContainer->get('Interface');
 // Returns same instance
 $sameInstance = $singletonContainer->get('Interface');
+
+// Confirms that intance is cached
+$singletonContainer->isCached('Interface');
+
 // Clear cached instance
 $singletonContainer->clear('Interface');
 // Clear all cached instances
-$singletonContainer->clear();
+$singletonContainer->clearAll();
 ```
 
 ## Change log

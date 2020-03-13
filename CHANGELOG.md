@@ -11,6 +11,9 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Added
 - `SingletonContainer` with `__construct()`, `clear()`, `clearAll()`, `get()`, `has()` and `isCached()` methods.
 - `SingletonContainerTest` with unit tests for `SingletonContainer`.
+- Travis configuration
+- Scrutinizer configuration
+- Github community files
 
 [Unreleased]: https://github.com/yuca/singleton-container/compare/v1.0.0...HEAD
 [0.0.1]: https://github.com/yuca/singleton-container/releases/tag/v1.0.0

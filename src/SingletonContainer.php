@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yuca\SingletonContainer;
+namespace YucaDoo\SingletonContainer;
 
 use Psr\Container\ContainerInterface;
 

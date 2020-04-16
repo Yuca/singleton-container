@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yuca\SingletonContainer;
+namespace YucaDoo\SingletonContainer;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
@@ -10,8 +10,8 @@ use Psr\Container\ContainerInterface;
 use Psr\Container\ContainerExceptionInterface;
 use stdClass;
 use Throwable;
-use Yuca\SingletonContainer\Mocks\ContainerException;
-use Yuca\SingletonContainer\Mocks\NotFoundException;
+use YucaDoo\SingletonContainer\Mocks\ContainerException;
+use YucaDoo\SingletonContainer\Mocks\NotFoundException;
 
 class SingletonContainerTest extends TestCase
 {

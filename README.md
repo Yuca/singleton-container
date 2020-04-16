@@ -21,7 +21,7 @@ please send a patch via pull request.
 Via Composer
 
 ``` bash
-$ composer require yuca/singleton-container
+$ composer require yucadoo/singleton-container
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ $ composer require yuca/singleton-container
 ``` php
 /** @var Psr\Container\ContainerInterface */
 $resolvingContainer;
-$singletonContainer = new Yuca\SingletonContainer\SingletonContainer($resolvingContainer);
+$singletonContainer = new YucaDoo\SingletonContainer\SingletonContainer($resolvingContainer);
 
 // Resolves the instance using the injected container
 $instance = $singletonContainer->get('Interface');
@@ -72,17 +72,17 @@ If you discover any security related issues, please email hrcajuka@gmail.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/yuca/singleton-container.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/yucadoo/singleton-container.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/yuca/singleton-container/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/yuca/singleton-container.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/yuca/singleton-container.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/yuca/singleton-container.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/yucadoo/singleton-container/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/yucadoo/singleton-container.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/yucadoo/singleton-container.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/yucadoo/singleton-container.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/yuca/singleton-container
-[link-travis]: https://travis-ci.org/yuca/singleton-container
-[link-scrutinizer]: https://scrutinizer-ci.com/g/yuca/singleton-container/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/yuca/singleton-container
-[link-downloads]: https://packagist.org/packages/yuca/singleton-container
+[link-packagist]: https://packagist.org/packages/yucadoo/singleton-container
+[link-travis]: https://travis-ci.org/yucadoo/singleton-container
+[link-scrutinizer]: https://scrutinizer-ci.com/g/yucadoo/singleton-container/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/yucadoo/singleton-container
+[link-downloads]: https://packagist.org/packages/yucadoo/singleton-container
 [link-author]: https://github.com/Firtzberg
 [link-contributors]: ../../contributors

@@ -1,5 +1,5 @@
 {
-    "name": "yuca/singleton-container",
+    "name": "yucadoo/singleton-container",
     "type": "library",
     "description": "PSR-11 container decorator caching resolved instances.",
     "keywords": [
@@ -9,13 +9,13 @@
         "decorator",
         "singleton"
     ],
-    "homepage": "https://github.com/yuca/singleton-container",
+    "homepage": "https://github.com/yucadoo/singleton-container",
     "license": "MIT",
     "authors": [
         {
             "name": "Hrvoje Jukic",
             "email": "hrcajuka@gmail.com",
-            "homepage": "https://github.com/yuca",
+            "homepage": "https://github.com/yucadoo",
             "role": "Developer"
         }
     ],
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yuca\\SingletonContainer\\": "src"
+            "YucaDoo\\SingletonContainer\\": "src"
         }
     },
     "provide": {
@@ -37,7 +37,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Yuca\\SingletonContainer\\": "tests"
+            "YucaDoo\\SingletonContainer\\": "tests"
         }
     },
     "scripts": {

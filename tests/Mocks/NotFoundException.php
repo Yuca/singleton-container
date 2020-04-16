@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yuca\SingletonContainer\Mocks;
+namespace YucaDoo\SingletonContainer\Mocks;
 
 use Psr\Container\NotFoundExceptionInterface;
 use Exception;
